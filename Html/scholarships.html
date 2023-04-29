@@ -17,20 +17,19 @@
 <div class="home">
   <nav>
     <div class="navbar homelist">
-        <a href="home.html"><img src = "../images/OSLogo.png" class="logo"></a>
-          <div class="text">
-            <h2><span>O</span>pportunities <span>S</span>eeker</h2>
-          </div>
-      
-        <ul>
-            <li id="ulstart"><a href ="home.html">HOME</a></li>
-            <li><a href ="scholarships.html">SCHOLARSHIPS</a></li>
-            <li><a href ="events.html">EVENTS</a></li>
-            <li><a href ="AboutUs.html">ABOUT US</a></li>
-        </ul>
-
+      <a href="home.html"><img src="..\images\OSLogo.png" class="logo"></a>
+      <div class="text">
+        <h2><span>O</span>pportunities <span>S</span>eeker</span></h2>
+      </div>
+      <ul>
+        <li id="ulstart"><a href="home.html">HOME</a></li>
+        <li><a href="scholarships.html">SCHOLARSHIPS</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="AboutUs.html">ABOUT US</a></li>
+      </ul>
     </div>
-</nav>
+  </nav>
+</div>
 
 
 
@@ -163,29 +162,28 @@
 
 <div class="footer">
 
-  <div class="contact">
-    <h1>Contact us</h1><br>
-      <form>
-        <div class="form_group">
-            <div class="form_item">
-              <input type="text" class="form_input" name="name" placeholder="Your name" required="">
-            </div>
-            <div class="form_item">
-              <input type="email" class="form_input" name="email" placeholder="Your email" required="">
-            </div>
-        </div>
-        <div class="form_item">
-          <input type="text" class="form_input" name="phone" placeholder="Your phone (optional)">
-        </div>
-        <div class="form_item">
-          <textarea name="text[body]" cols="30" rows="10" class="form_textarea" placeholder="Your message" required=""></textarea>
-        </div>
-        <button type="submit" class="form_submit button button-primary">Send message
+<!-- ###-CONTACT-### -->
 
-        </button>
-      </form>
-
+<div class="contact">
+  <h1>Contact us</h1><br>
+  <form id="contact-form" method="POST">
+    <div class="form_group">
+      <div class="form_item">
+        <input type="text" class="form_input" name="name" placeholder="Your name" required="">
+      </div>
+      <div class="form_item">
+        <input type="email" class="form_input" name="email" placeholder="Your email" required="">
+      </div>
     </div>
+    <div class="form_item">
+      <input type="text" class="form_input" name="phone" placeholder="Your phone (optional)">
+    </div>
+    <div class="form_item">
+      <textarea name="message" cols="30" rows="10" class="form_textarea" placeholder="Your message" required=""></textarea>
+    </div>
+    <button type="submit" class="form_submit button button-primary">Send message</button>
+  </form>
+</div>
 
     
     <div class="footer_block">
