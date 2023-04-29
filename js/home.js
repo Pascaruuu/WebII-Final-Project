@@ -25,7 +25,7 @@ $(document).ready(function() {
     
     $.ajax({
       type: 'POST',
-      url: 'http://localhost:8000/process.php', // replace with the URL of your processing script
+      url: 'http://localhost/php/contact.php', 
       data: form_data
     })
     .done(function(response) {
