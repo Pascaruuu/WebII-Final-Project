@@ -58,6 +58,14 @@ h3{
     border: 1px solid #ececec;
     margin: 20px 20px;
     margin-bottom: 100px;
+    transition: .2s ease-out;
+}
+.blog-box:hover{
+    background-size: 500px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 5px rgba(63, 63, 63, 0.24);
+    transition: .2s ease-in;
+    transform: scale(1.05);
 }
 .blog-img{
     width:100%;
@@ -105,46 +113,6 @@ h3{
     color: #c74242;
     transition: all ease 0.3s;
 }
-
-
-/* .blog-text1{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 348px;
-    height: 131.2px;
-}
-.blog-text1 span{
-    color: #f33c3c;
-    font-size: 0.9rem;
-    margin-top: -1em;
-    text-align: center;
-}
-.blog-text1 .blog-title{
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #272727;
-    margin-top: 1em;
-    text-align: center;
-}
-
-.blog-text1 p{
-    color: #9b9b9b;
-    font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 20px 0px;
-}
-.blog-text1 a{
-    color: #0f0f0f;
-}
-.blog-text1 a:hover{
-    color: #c74242;
-    transition: all ease 0.3s;
-} */
 
 .overline {
 text-decoration: overline;
