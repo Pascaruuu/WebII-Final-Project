@@ -353,15 +353,12 @@ vertical-align: middle;}
 nav{
     padding: 1.5%;
     background-color: #313238;
-<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-=======
     zoom:90%;
 }
->>>>>>> 08d348ba8f09d590c313cdab010aa9a7701efef9
+
 
 .navbar .text {
     position: relative;
