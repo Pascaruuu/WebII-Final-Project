@@ -348,7 +348,7 @@ vertical-align: middle;}
 .homelist ul li a:hover{
     color:rgb(230,104,59);}
 .info h1{
-    padding-top: 45px;
+    padding: 5%;
     font-size: 65px;
     text-align: center;}
 .info h3{
