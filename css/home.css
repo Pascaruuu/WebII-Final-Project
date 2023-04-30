@@ -14,6 +14,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.15);}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 25px 20vw;
+}
 a{
     text-decoration: none;}
 
@@ -47,8 +55,25 @@ a{
     }
   }
 
-
-
+.spacer{
+    aspect-ratio: 900/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url('../svg/layered-waves-haikei.svg');
+}
+.layer2{
+    background-image: url('../svg/layered-waves-haikeigray.svg');
+}
+.orange{
+    background: #F7770F;
+}
+.gray{
+    background: #808080;
+}
     
 /*  ##############################
     ------CONTENT CATEGORIES------
@@ -57,14 +82,14 @@ a{
 .home{
     background-color: white;}
 .scholarship{
-    background-image: url('../images/scholarshipbg-01.png');
+    /* background-image: url('../images/scholarshipbg-01.png'); */
     background-size: 100%;
-    color: white;
+    color: black;
     width: 100%;
     }
 .events{
-    background-color: #808080;
-    color: white;
+    /* background-color: #808080; */
+    color: black;
     width: 100%;
 }
 .Tcenter{
@@ -358,7 +383,6 @@ nav{
     align-items: center;
     zoom:90%;
 }
-
 
 .navbar .text {
     position: relative;
