@@ -348,7 +348,7 @@ vertical-align: middle;}
 .homelist ul li a:hover{
     color:rgb(230,104,59);}
 .info h1{
-    padding-top: 45px;
+    padding-top: 100px;
     font-size: 65px;
     text-align: center;}
 .info h3{
@@ -395,6 +395,7 @@ nav{
     top: 100%;
     transform: translateY(-50%); 
     left: 30px; 
+    font-size: 25px;
 }
 
 .navbar .text span{
