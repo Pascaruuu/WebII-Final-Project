@@ -30,7 +30,7 @@ const months = [
   let tempMonth = tempDate.getMonth();
   let tempDay = tempDate.getDate();
   // months are ZERO index based;
-  const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 30, 0);
+  const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 59, 0);
   
   // let futureDate = new Date(2020, 3, 24, 11, 30, 0);
   
@@ -42,7 +42,7 @@ const months = [
   month = months[month];
   const weekday = weekdays[futureDate.getDay()];
   const date = futureDate.getDate();
-  giveaway.textContent = `Deadline ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
+  giveaway.textContent = `Deadline ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}pm`;
   
   const futureTime = futureDate.getTime();
   function getRemaindingTime() {
