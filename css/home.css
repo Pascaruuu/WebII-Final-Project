@@ -17,8 +17,35 @@ body {
 a{
     text-decoration: none;}
 
+/* Styles for small screens */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 12px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
 
+  /* Styles for medium screens */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 80%;
+    }
+  }
 
+  /* Styles for large screens */
+  @media screen and (min-width: 901px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 60%;
+    }
+  }
 
 
 
@@ -328,7 +355,6 @@ vertical-align: middle;}
 nav{
     padding: 1.5%;
     background-color: #313238;
-    zoom:90%;
 }
 
 .navbar .text {
