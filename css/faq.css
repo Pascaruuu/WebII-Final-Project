@@ -29,18 +29,28 @@ Global Styles
 ===============
 */
 
-
-
-
-.title h2 {
-  text-transform: capitalize; 
-  font-size: 60px;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-secondary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
-}
+
 
 /*  global classes */
 
@@ -92,7 +102,7 @@ Questions
   margin-bottom: 4rem;
 }
 .title h2 {
-  color: var(--clr-gold);
+  color: black;
   font-family: "Great Vibes", cursive;
   text-align: center;
 }
@@ -124,7 +134,7 @@ Questions
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-  color: var(--clr-gold);
+  color: #F7770F;
   transition: var(--transition);
 }
 .question-btn:hover {
