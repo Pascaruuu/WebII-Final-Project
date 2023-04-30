@@ -22,6 +22,14 @@ section{
     min-height: 400px;
     padding: 25px 20vw;
 }
+.background{
+    background-image: url('../svg/blob-scene-haikei1.svg');
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 a{
     text-decoration: none;}
 
@@ -67,6 +75,9 @@ a{
 }
 .layer2{
     background-image: url('../svg/layered-waves-haikeigray.svg');
+}
+.layer3{
+    background-image: url('../svg/layered-waves-haikei3.svg');
 }
 .orange{
     background: #F7770F;
